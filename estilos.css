@@ -1,0 +1,207 @@
+body{
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .ancho{
+    max-width: 1200px;
+    margin: auto;
+    }
+
+    .contenedor_cabecera{
+        height: 150px;
+        background-color: #f4f4f4;
+    }
+    .contenedor_cabecera2{
+        height: 150px;
+    }
+
+    .logo_tec{
+        margin-left: 100px;
+        margin-top: 10px;
+        float: left;
+    }
+    .contenedor_formulario{
+        float: right;
+        height: 100px;
+        width: 52%;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    .texto_formulario{
+        color: black;
+        font-weight: bold;
+    }
+    .btn_formulario{
+        background-color: #cc9900;
+        color: white;
+        width: 20%;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border-color: #cc9900;
+        cursor: pointer;
+    }
+    .contenedor_menu{
+        clear: both;
+        height: 80px;
+    }
+    .contenedor_menu2{
+        margin-top: 10px;
+        height: 60px;
+    }
+    .contenedor_menu a{
+        color: black;
+        background-color: white;
+        margin: 15px 30px;
+        padding: 10px 15px;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .contenedor_menu a:hover{
+        color: white;
+        background-color: #5d0201;
+        margin: 15px 30px;
+        padding: 10px 15px;
+        height: 100%;
+        
+    }
+    .contenedor_imagen{
+        background-image: url(imagenes/fotoslide.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+    .contenedor_footer{
+        clear: both;
+        height: 300px;
+        background-color: #101518;
+        color: white;
+    }
+    .contenedor_informacion{
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 32%;
+        height: 250px;
+        display: inline-block;
+        vertical-align: top;
+        font-weight: bold;
+    }
+    
+    .letras_amarillas{
+        color: #cc9900;
+        font-size: 20px;
+    }
+    .contenedor_informacion2{
+        text-align: center;
+    }
+    .contenedor_linea_roja{
+        background-color: #5d0201;
+        height: 50px;
+    }
+    .contenedor_central{
+        height: 430px;
+        background-color: #eeeeee;
+    }
+    .contenedor_universidad{
+        width: 32%;
+        height: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+        
+    }
+    .contenedor_engrane{
+        width: 15%;
+        float: left;
+    }
+    .contenedor_texto_universidad{
+        width: 85%;
+        float: right;
+    }
+    .linea_gris{
+        width: 100%;
+    }
+    .letras_rojas{
+        color: #5d0201;
+    }
+    .docentes{
+        padding-top: 10px;
+        padding-left:40px;
+        color: black;
+    }
+    .foto1{
+        width: 100%;
+    }
+    .instalaciones1{
+        width: 49%;
+        float: left;
+    }
+    .instalaciones2{
+        width: 49%;
+        float: right;
+    }
+    .instalaciones3{
+        clear: both;
+        width: 100%;
+        padding-top: 2px;
+    }
+    .contenedor_central_dos{
+        height: 330px;
+        background-color: #eeeeee;
+    }
+    .contenedor_egresado{
+        width: 65%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+       
+    }
+    .contenedor_campo_trabajo{
+        background-color: #5d0201;
+        width: 30%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 25px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 10px;
+    }
+    .btn_amarillo{
+        text-decoration: none;
+        padding: 15px 40px;
+        background-color: #c99600;
+        color: white;
+        border-radius: 5px;
+    }
+    .letras_campo{
+        color: white;
+        padding: 5px 5px;
+    }
+     .contenedor_vineta{
+        width: 5%;
+        float: left;
+        margin-left: 10px;
+    }
+    .contenedor_texto_egresado{
+        width: 93%;
+        float: right;
+        color: black;
+    }
+    .contenedor_egresado h2{
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+    }

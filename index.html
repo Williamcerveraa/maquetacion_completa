@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Tarea Completa</title>
+</head>
+<body>
+    <div class="contenedor_cabecera">
+        <div class="contenedor_cabecera2 ancho">
+            <img src="imagenes/logotransparente.png" alt="logo_tec" class="logo_tec">
+
+            <div class="contenedor_formulario">
+                <form action="enviar.php" name="formulariocontacto" method="post">
+                    <label for="" class="texto_formulario">Nombre:</label> <input type="text" id="nombre_completo">
+                    <label for="" class="texto_formulario">Apellidos:</label> <input type="text" id="apellidos">
+                    <label for="" class="texto_formulario">Sexo: </label><input type="radio"> M <input type="radio"> H
+                    <br><br>
+                    <label for="" class="texto_formulario">Fecha de nacimiento: </label><select name="" id=""><option value="">día</option></select>
+                    <select name="" id=""><option value="">mes</option></select>
+                    <select name="" id=""><option value="">año</option></select>
+                    <button class="btn_formulario" id="btn_enviar" value="enviar" type="button" onclick="valida_formulario()">Enviar</button>
+                </form>  
+            </div>
+        </div>
+    </div>
+    <div class="contenedor_menu ancho">
+        <div class="contenedor_menu2 ancho">
+            <br>
+            <a href="">Inicio</a>
+            <a href="">Requisitos</a>
+            <a href="">Materias</a>
+            <a href="">Organigrama</a>
+            <a href="">Instalaciones</a>
+            <a href="">Inscripciones</a>
+            <a href="">Contacto</a>
+        </div>
+    </div>
+    <div class="contenedor_imagen ancho">
+        
+    </div>
+    <div class="contenedor_central ancho">
+        <div class="contenedor_universidad">
+            <div class="contenedor_engrane">
+                <img src="imagenes/engrane.png" alt="">
+            </div>
+            <div class="contenedor_texto_universidad">
+                <h2 class="letras_rojas">UNIVERSIDAD <br> DE PRESTIGIO</h2>
+            </div>
+            <hr class="linea_gris">
+            <br>
+            <img src="imagenes/foto1.jpg" alt="" class="foto1">
+            <p>Puede que después de tu carrera quieras estudiar una maestría o un doctorado que te permita especializarte. Hay portunidades muy interesantes para estudiar con buenas becas en el extranjero.</p>
+        </div>
+        <div class="contenedor_universidad">
+            <div class="contenedor_engrane">
+                <img src="imagenes/engrane.png" alt="">
+            </div>
+            <div class="contenedor_texto_universidad">
+                <h2 class="docentes">DOCENTES</h2>
+            </div>
+            <hr class="linea_gris">
+            <br>
+            <img src="imagenes/foto2.jpg" alt="" class="foto1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe similique possimus 
+                explicabo beatae? Nulla voluptatibus ipsum id eos hic
+                 perferendis. Dolorem laboriosam exercitationem 
+                 nemo voluptatum, pariatur a nostrum! Itaque, illum!</p>
+        </div>
+        <div class="contenedor_universidad">
+            <div class="contenedor_engrane">
+                <img src="imagenes/engrane.png" alt="">
+            </div>
+            <div class="contenedor_texto_universidad">
+                <h2 class="docentes">INSTALACIONES</h2>
+            </div>
+            <hr class="linea_gris">
+            <br>
+            <img src="imagenes/instalaciones1.jpg" alt="" class="instalaciones1">
+            <img src="imagenes/instalaciones2.jpg" alt="" class="instalaciones2">
+            <img src="imagenes/instalaciones3.jpg" alt="" class="instalaciones3">
+        </div>
+    </div>
+    <div class="contenedor_central_dos ancho">
+        <div class="contenedor_egresado">
+            <h2>Perfil del Egresado</h2>
+            <br>
+            <div class="contenedor_vineta">
+                <img src="imagenes/vineta1.jpg" alt="">
+            </div>
+            <div class="contenedor_texto_egresado">
+                <p>Desarrollar, implementar y administrar software de sistemas o de aplicación a cumpla con los estándares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones.</p>
+            </div>
+            <br><br>
+            <div class="contenedor_vineta">
+                <img src="imagenes/vineta1.jpg" alt="">
+            </div>
+            <div class="contenedor_texto_egresado">
+                <p>Seleccionar y aplicar herramientas matemáticas para el modelado, diseño y desarrollo de tecnología computacional.</p>
+            </div>
+            <br><br>
+            <div class="contenedor_vineta">
+                <img src="imagenes/vineta1.jpg" alt="">
+            </div>
+            <div class="contenedor_texto_egresado">
+                <p>Integrar diversas soluciones computacionales que requieran el uso de las
+                    diferentes tecnologías, plataformas o dispositivos.</p>
+            </div>
+            <br><br>
+            <div class="contenedor_vineta">
+                <img src="imagenes/vineta1.jpg" alt="">
+            </div>
+            <div class="contenedor_texto_egresado">
+                <p>Diseñar, desarrollar y administrar bases de datos conforme a requerimientos definidos, normas organizacionales de manejo y seguridad de la información, utilizando tecnologias emergentes.</p>
+            </div>
+        </div>
+        <div class="contenedor_campo_trabajo">
+            <h2 class="letras_amarillas">CAMPO DE TRABAJO</h2>
+            <br>
+            <p class="letras_campo">Empresas y organismos en todos los campos de la actividad económica, gubernamental y de educación, en donde se puedan optimizar los procesos il automatizar el manejo de la información de las empresas.</p>
+                <br>
+                <a href="" class="btn_amarillo">ver más</a>
+        </div>
+    </div>
+    <div class="contenedor_footer ancho">
+        <div class="contenedor_informacion">
+            <h2><span class="letras_amarillas">INSTITUTO TECNOLÓGICO DE MÉRIDA</span></h2>
+            <br>
+            <p>Av. Tecnológico Km. 4.5 S/N C.P. 97118</p>
+            <br>
+            <p>Preguntas y Comentarios: <br> www.itmerida.mx </p>
+            <br>
+            <p>Tel:(999) 964-5000, 964-5001</p>
+        </div>
+        <div class="contenedor_informacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5541432164428!2d-89.62517077310952!3d21.010502188402246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a62e74551d%3A0xfa87b7045b382a6!2zVGVjbm9sw7NnaWNvLCA5NzEyMCBNw6lyaWRhLCBZdWMu!5e0!3m2!1ses-419!2smx!4v1681412850845!5m2!1ses-419!2smx" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contenedor_informacion">
+            <div class="contenedor_informacion2">
+                <img src="imagenes/logotransparente.png" alt="">
+                <h3>William Manuel Cervera Dorantes</h3>
+                <h3>7SA</h3>
+                <h3>Programación Web</h3>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor_linea_roja ancho">
+
+    </div>
+
+    <script>
+        function valida_formulario(){
+            if(document.getElementById("nombre_completo").value.length == 0){
+                alert("Escribe tu nombre completo");
+                document.getElementById("nombre_completo").focus()
+                return 0;
+            }
+            if(document.getElementById("apellidos").value.length == 0){
+                alert("Escribe tu apellido");
+                document.getElementById("apellidos").focus()
+                return 0;
+            }
+            document.formulariocontacto.submit();
+            
+        }
+    </script>
+</body>
+</html>
